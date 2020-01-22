@@ -6,7 +6,6 @@ import org.springframework.http.HttpStatus;
 
 import java.io.Serializable;
 
-
 @Data
 @NoArgsConstructor
 public class CommonResponse implements Serializable {
@@ -18,9 +17,5 @@ public class CommonResponse implements Serializable {
 
     public static CommonResponse setSuccess() {
         return new CommonResponse();
-    }
-
-    public static void main(String[] args) {
-        System.out.println(CommonResponse.setSuccess());
     }
 }

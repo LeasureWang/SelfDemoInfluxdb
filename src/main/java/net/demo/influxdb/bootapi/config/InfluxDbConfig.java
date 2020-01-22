@@ -19,5 +19,4 @@ public class InfluxDbConfig {
                 demoInfluxDbProperties.getDatabase(),
                 demoInfluxDbProperties.getRetentionPolicy());
     }
-
 }
